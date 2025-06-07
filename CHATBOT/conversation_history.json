@@ -1,0 +1,154 @@
+[
+  {
+    "timestamp": 1749300104.8781366,
+    "user_input": "Hello",
+    "bot_response": "Hi there! I'm IntelliBot, your AI assistant specializing in data science and career guidance. How can I help you today?",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0,
+    "response_time": 0.00946950912475586
+  },
+  {
+    "timestamp": 1749300105.7573743,
+    "user_input": "What is your name?",
+    "bot_response": "I'm online now",
+    "method": "Transformer Model",
+    "similarity_score": 0.0,
+    "response_time": 0.8792376518249512
+  },
+  {
+    "timestamp": 1749300106.536125,
+    "user_input": "What is cross-validation?",
+    "bot_response": "I'm not sure what this means",
+    "method": "Transformer Model",
+    "similarity_score": 0.0,
+    "response_time": 0.7787506580352783
+  },
+  {
+    "timestamp": 1749300106.5406725,
+    "user_input": "Explain the bias-variance tradeoff",
+    "bot_response": "The bias-variance tradeoff describes the balance between a model's ability to minimize bias (underfitting) and variance (overfitting). High bias leads to underfitting, high variance leads to overfitting. The goal is finding the optimal balance.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 0.47133292041415176,
+    "response_time": 0.0025327205657958984
+  },
+  {
+    "timestamp": 1749300106.5436873,
+    "user_input": "How do you handle missing data?",
+    "bot_response": "Missing data can be handled through deletion (listwise/pairwise), imputation (mean/median/mode/forward-fill), advanced techniques like multiple imputation, or using algorithms that naturally handle missing values like XGBoost.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0,
+    "response_time": 0.003014802932739258
+  },
+  {
+    "timestamp": 1749300106.5456882,
+    "user_input": "What is feature engineering?",
+    "bot_response": "Feature engineering involves creating, selecting, and transforming variables to improve model performance. This includes scaling, encoding categorical variables, creating interaction terms, polynomial features, and domain-specific transformations.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0000000000000002,
+    "response_time": 0.0020008087158203125
+  },
+  {
+    "timestamp": 1749300106.547687,
+    "user_input": "Explain overfitting and underfitting",
+    "bot_response": "Overfitting occurs when a model learns training data too well, including noise, leading to poor generalization. Underfitting happens when a model is too simple to capture underlying patterns. Both result in poor performance on new data.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0,
+    "response_time": 0.0019989013671875
+  },
+  {
+    "timestamp": 1749300106.5496879,
+    "user_input": "What is ensemble learning?",
+    "bot_response": "Ensemble learning combines multiple models to create stronger predictions than individual models. Methods include bagging (Random Forest), boosting (XGBoost, AdaBoost), and stacking (meta-learning).",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0000000000000002,
+    "response_time": 0.0020008087158203125
+  },
+  {
+    "timestamp": 1749300106.5525568,
+    "user_input": "How do I prepare for data science interviews?",
+    "bot_response": "Focus on technical skills (Python, SQL, ML algorithms), practice coding problems on LeetCode/HackerRank, prepare project discussions with business impact, understand statistical concepts, and practice explaining complex topics simply.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0,
+    "response_time": 0.0028688907623291016
+  },
+  {
+    "timestamp": 1749300106.5545802,
+    "user_input": "What skills are required for data scientists?",
+    "bot_response": "Essential skills include Python/R programming, SQL, statistics, machine learning, data visualization (Tableau/PowerBI), cloud platforms (AWS/Azure), and strong communication skills for stakeholder presentations.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0000000000000002,
+    "response_time": 0.002023458480834961
+  },
+  {
+    "timestamp": 1749300106.5592866,
+    "user_input": "How do I optimize my resume for data science roles?",
+    "bot_response": "Use ATS-friendly formatting, highlight quantifiable achievements, showcase relevant projects with business impact, include technical skills prominently, and tailor keywords to job descriptions. Focus on results and metrics.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0000000000000002,
+    "response_time": 0.004706382751464844
+  },
+  {
+    "timestamp": 1749300106.5612884,
+    "user_input": "What certifications are valuable for data scientists?",
+    "bot_response": "Valuable certifications include AWS/Azure/GCP cloud certifications, Google Data Analytics Certificate, IBM Data Science Professional Certificate, and specialized ML certifications from Coursera, edX, or Udacity.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0000000000000002,
+    "response_time": 0.0020017623901367188
+  },
+  {
+    "timestamp": 1749300106.5622818,
+    "user_input": "How do I build a data science portfolio?",
+    "bot_response": "Create 3-5 diverse projects: EDA, machine learning, deep learning, time series, and business applications. Use GitHub with clear documentation, deploy models, and write blog posts explaining your approach and findings.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0000000000000002,
+    "response_time": 0.000993490219116211
+  },
+  {
+    "timestamp": 1749300106.5637743,
+    "user_input": "What is MLOps?",
+    "bot_response": "MLOps (Machine Learning Operations) is the practice of deploying, monitoring, and maintaining ML models in production. It includes CI/CD for ML, model versioning, monitoring, and automated retraining pipelines.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0,
+    "response_time": 0.0014925003051757812
+  },
+  {
+    "timestamp": 1749300106.5677998,
+    "user_input": "Explain transformer models",
+    "bot_response": "Transformers are neural network architectures using self-attention mechanisms to process sequential data. They're the foundation of modern NLP models like BERT, GPT, and T5, enabling parallel processing and long-range dependencies.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0,
+    "response_time": 0.004025459289550781
+  },
+  {
+    "timestamp": 1749300106.5698118,
+    "user_input": "What is explainable AI?",
+    "bot_response": "Explainable AI (XAI) makes machine learning models interpretable and transparent. Techniques include LIME, SHAP, attention visualization, and model-agnostic explanations to understand model decisions.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 1.0000000000000002,
+    "response_time": 0.0
+  },
+  {
+    "timestamp": 1749300106.5718215,
+    "user_input": "Tell me about quantum computing in data science",
+    "bot_response": "Cloud computing is essential for modern data science. Platforms like AWS, Azure, and GCP provide scalable infrastructure for big data processing, model training, deployment, and collaboration.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 0.4958527700169519,
+    "response_time": 0.0020096302032470703
+  },
+  {
+    "timestamp": 1749300106.5738304,
+    "user_input": "How do I become a unicorn data scientist?",
+    "bot_response": "Research market rates using Glassdoor/PayScale, highlight unique value and achievements, prepare examples of business impact, consider total compensation, and demonstrate your technical expertise and problem-solving abilities.",
+    "method": "TF-IDF High Confidence",
+    "similarity_score": 0.5958034005925477,
+    "response_time": 0.0020089149475097656
+  },
+  {
+    "timestamp": 1749300107.238002,
+    "user_input": "xyz123randomtext",
+    "bot_response": "What's your email?",
+    "method": "Transformer Model",
+    "similarity_score": 0.0,
+    "response_time": 0.6641716957092285
+  }
+]

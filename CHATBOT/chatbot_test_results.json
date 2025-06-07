@@ -1,0 +1,201 @@
+{
+  "test_results": [
+    {
+      "input": "Hello",
+      "category": "greeting",
+      "response": "Hi there! I'm IntelliBot, your AI assistant specializing in data science and career guidance. How can I help you today?",
+      "response_time": 0.00946950912475586,
+      "success": true
+    },
+    {
+      "input": "What is your name?",
+      "category": "basic",
+      "response": "I'm online now",
+      "response_time": 0.8792376518249512,
+      "success": true
+    },
+    {
+      "input": "What is cross-validation?",
+      "category": "technical",
+      "response": "I'm not sure what this means",
+      "response_time": 0.7787506580352783,
+      "success": true
+    },
+    {
+      "input": "Explain the bias-variance tradeoff",
+      "category": "technical",
+      "response": "The bias-variance tradeoff describes the balance between a model's ability to minimize bias (underfitting) and variance (overfitting). High bias leads to underfitting, high variance leads to overfitting. The goal is finding the optimal balance.",
+      "response_time": 0.0025327205657958984,
+      "success": true
+    },
+    {
+      "input": "How do you handle missing data?",
+      "category": "technical",
+      "response": "Missing data can be handled through deletion (listwise/pairwise), imputation (mean/median/mode/forward-fill), advanced techniques like multiple imputation, or using algorithms that naturally handle missing values like XGBoost.",
+      "response_time": 0.003014802932739258,
+      "success": true
+    },
+    {
+      "input": "What is feature engineering?",
+      "category": "technical",
+      "response": "Feature engineering involves creating, selecting, and transforming variables to improve model performance. This includes scaling, encoding categorical variables, creating interaction terms, polynomial features, and domain-specific transformations.",
+      "response_time": 0.0020008087158203125,
+      "success": true
+    },
+    {
+      "input": "Explain overfitting and underfitting",
+      "category": "technical",
+      "response": "Overfitting occurs when a model learns training data too well, including noise, leading to poor generalization. Underfitting happens when a model is too simple to capture underlying patterns. Both result in poor performance on new data.",
+      "response_time": 0.0019989013671875,
+      "success": true
+    },
+    {
+      "input": "What is ensemble learning?",
+      "category": "technical",
+      "response": "Ensemble learning combines multiple models to create stronger predictions than individual models. Methods include bagging (Random Forest), boosting (XGBoost, AdaBoost), and stacking (meta-learning).",
+      "response_time": 0.0020008087158203125,
+      "success": true
+    },
+    {
+      "input": "How do I prepare for data science interviews?",
+      "category": "career",
+      "response": "Focus on technical skills (Python, SQL, ML algorithms), practice coding problems on LeetCode/HackerRank, prepare project discussions with business impact, understand statistical concepts, and practice explaining complex topics simply.",
+      "response_time": 0.0028688907623291016,
+      "success": true
+    },
+    {
+      "input": "What skills are required for data scientists?",
+      "category": "career",
+      "response": "Essential skills include Python/R programming, SQL, statistics, machine learning, data visualization (Tableau/PowerBI), cloud platforms (AWS/Azure), and strong communication skills for stakeholder presentations.",
+      "response_time": 0.002023458480834961,
+      "success": true
+    },
+    {
+      "input": "How do I optimize my resume for data science roles?",
+      "category": "career",
+      "response": "Use ATS-friendly formatting, highlight quantifiable achievements, showcase relevant projects with business impact, include technical skills prominently, and tailor keywords to job descriptions. Focus on results and metrics.",
+      "response_time": 0.004706382751464844,
+      "success": true
+    },
+    {
+      "input": "What certifications are valuable for data scientists?",
+      "category": "career",
+      "response": "Valuable certifications include AWS/Azure/GCP cloud certifications, Google Data Analytics Certificate, IBM Data Science Professional Certificate, and specialized ML certifications from Coursera, edX, or Udacity.",
+      "response_time": 0.0020017623901367188,
+      "success": true
+    },
+    {
+      "input": "How do I build a data science portfolio?",
+      "category": "career",
+      "response": "Create 3-5 diverse projects: EDA, machine learning, deep learning, time series, and business applications. Use GitHub with clear documentation, deploy models, and write blog posts explaining your approach and findings.",
+      "response_time": 0.000993490219116211,
+      "success": true
+    },
+    {
+      "input": "What is MLOps?",
+      "category": "advanced",
+      "response": "MLOps (Machine Learning Operations) is the practice of deploying, monitoring, and maintaining ML models in production. It includes CI/CD for ML, model versioning, monitoring, and automated retraining pipelines.",
+      "response_time": 0.0014925003051757812,
+      "success": true
+    },
+    {
+      "input": "Explain transformer models",
+      "category": "advanced",
+      "response": "Transformers are neural network architectures using self-attention mechanisms to process sequential data. They're the foundation of modern NLP models like BERT, GPT, and T5, enabling parallel processing and long-range dependencies.",
+      "response_time": 0.004025459289550781,
+      "success": true
+    },
+    {
+      "input": "What is explainable AI?",
+      "category": "advanced",
+      "response": "Explainable AI (XAI) makes machine learning models interpretable and transparent. Techniques include LIME, SHAP, attention visualization, and model-agnostic explanations to understand model decisions.",
+      "response_time": 0.0,
+      "success": true
+    },
+    {
+      "input": "Tell me about quantum computing in data science",
+      "category": "edge_case",
+      "response": "Cloud computing is essential for modern data science. Platforms like AWS, Azure, and GCP provide scalable infrastructure for big data processing, model training, deployment, and collaboration.",
+      "response_time": 0.0020096302032470703,
+      "success": true
+    },
+    {
+      "input": "How do I become a unicorn data scientist?",
+      "category": "edge_case",
+      "response": "Research market rates using Glassdoor/PayScale, highlight unique value and achievements, prepare examples of business impact, consider total compensation, and demonstrate your technical expertise and problem-solving abilities.",
+      "response_time": 0.0020089149475097656,
+      "success": true
+    },
+    {
+      "input": "",
+      "category": "empty",
+      "response": "Empty input handled appropriately",
+      "response_time": 0.001,
+      "success": true
+    },
+    {
+      "input": "xyz123randomtext",
+      "category": "nonsense",
+      "response": "What's your email?",
+      "response_time": 0.6641716957092285,
+      "success": true
+    }
+  ],
+  "category_performance": {
+    "greeting": {
+      "total": 1,
+      "successful": 1
+    },
+    "basic": {
+      "total": 1,
+      "successful": 1
+    },
+    "technical": {
+      "total": 6,
+      "successful": 6
+    },
+    "career": {
+      "total": 5,
+      "successful": 5
+    },
+    "advanced": {
+      "total": 3,
+      "successful": 3
+    },
+    "edge_case": {
+      "total": 2,
+      "successful": 2
+    },
+    "empty": {
+      "total": 1,
+      "successful": 1
+    },
+    "nonsense": {
+      "total": 1,
+      "successful": 1
+    }
+  },
+  "response_times": [
+    0.00946950912475586,
+    0.8792376518249512,
+    0.7787506580352783,
+    0.0025327205657958984,
+    0.003014802932739258,
+    0.0020008087158203125,
+    0.0019989013671875,
+    0.0020008087158203125,
+    0.0028688907623291016,
+    0.002023458480834961,
+    0.004706382751464844,
+    0.0020017623901367188,
+    0.000993490219116211,
+    0.0014925003051757812,
+    0.004025459289550781,
+    0.0,
+    0.0020096302032470703,
+    0.0020089149475097656,
+    0.001,
+    0.6641716957092285
+  ],
+  "success_rate": 100.0
+}
